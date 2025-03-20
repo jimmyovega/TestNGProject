@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-20T11:05:27 CDT" name="MySuite" finished-at="2025-03-20T11:05:27 CDT" duration-ms="479">
+    <groups>
+    </groups>
+    <test started-at="2025-03-20T11:05:27 CDT" name="MyTest" finished-at="2025-03-20T11:05:27 CDT" duration-ms="479">
+      <class name="jvtest.SolutionsTest">
+        <test-method signature="testBaseCase1()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testBaseCase1" description="Verify base case is satisfied where one plant can be placed" finished-at="2025-03-20T11:05:27 CDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseCase1 -->
+        <test-method signature="testBaseCase2()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testBaseCase2" description="Verify base case is satisfied where two plants can be placed" finished-at="2025-03-20T11:05:27 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseCase2 -->
+        <test-method signature="testBoundaryCase1()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testBoundaryCase1" description="Verify case where there are 9999 open plots" finished-at="2025-03-20T11:05:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCase1 -->
+        <test-method signature="testBoundaryCase2()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testBoundaryCase2" description="Verify case where there are 9998 closed plots" finished-at="2025-03-20T11:05:27 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCase2 -->
+        <test-method signature="testBoundaryCase3()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testBoundaryCase3" description="Verify case where there are 7500 open plots and 2500 closed plots" finished-at="2025-03-20T11:05:27 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCase3 -->
+        <test-method signature="testEdgeCase1()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testEdgeCase1" description="Verify case where there&#039;s only one open plot" finished-at="2025-03-20T11:05:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEdgeCase1 -->
+        <test-method signature="testEdgeCase2()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testEdgeCase2" description="Verify case where there&#039;s only one used plot" finished-at="2025-03-20T11:05:27 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEdgeCase2 -->
+        <test-method signature="testEdgeCase3()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testEdgeCase3" description="Verify case where there are 10000 open plots" finished-at="2025-03-20T11:05:27 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEdgeCase3 -->
+        <test-method signature="testEdgeCase4()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testEdgeCase4" description="Verify case where there are 10000 used plots" finished-at="2025-03-20T11:05:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEdgeCase4 -->
+        <test-method signature="testFaultCase1()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testFaultCase1" description="Verify fault case of no plots" finished-at="2025-03-20T11:05:27 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaultCase1 -->
+        <test-method signature="testFaultCase2()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testFaultCase2" description="Verify fault case of other values other than 0 and 1" finished-at="2025-03-20T11:05:27 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaultCase2 -->
+        <test-method signature="testLoadTest1()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testLoadTest1" description="Verify case where there are 10000 open plots and 10000 plants can be placed" finished-at="2025-03-20T11:05:27 CDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadTest1 -->
+        <test-method signature="testLoadTest2()[pri:0, instance:jvtest.SolutionsTest@2dde1bff]" started-at="2025-03-20T11:05:27 CDT" name="testLoadTest2" description="Verify case where there are 10000 used plots and 10000 plants can be placed" finished-at="2025-03-20T11:05:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadTest2 -->
+      </class> <!-- jvtest.SolutionsTest -->
+    </test> <!-- MyTest -->
+  </suite> <!-- MySuite -->
+</testng-results>
